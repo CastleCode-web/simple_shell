@@ -53,6 +53,33 @@ This version of the simple shell is called `hsh` which simply means `Holberton S
 This project was implemented using the [C Programming Language](https://en.wikipedia.org/wiki/C_(programming_language)) and can be run on all environment that provide full support for the language and all its dependencies
 
 
+## `List of Files`
+  - AUTHORS
+  - README.md
+  - _atoi.c
+  - builtin.c
+  - builtin1.c
+  - environ.c
+  - errors.c
+  - errors1.c
+  - exits.c
+  - getLine.c
+  - getenv.c
+  - getinfo.c
+  - history.c
+  - list.c
+  - lists.c
+  - loop.c
+  - main.c
+  - memory.c
+  - parser.c
+  - realloc.c
+  - shell.h
+  - strings.c
+  - strings_flow.c
+  - tokenizer_func.c
+  - variables.c
+
 
 ## `Authors`
 
