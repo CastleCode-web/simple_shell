@@ -7,7 +7,7 @@
 void clear_info(info_t *info)
 {
 	info->arg = NULL;
-	info->atgv = NULL;
+	info->argv = NULL;
 	info->path = NULL;
 	info->argc = 0;
 }

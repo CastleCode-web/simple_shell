@@ -78,7 +78,7 @@ ssize_t get_input(info_t *info)
 		if (i >= len) /* reached end of buffer? */
 		{
 			i = len = 0; /* reset position and length */
-			inf->cmd_buf_type = CMD_NORM;
+			info->cmd_buf_type = CMD_NORM;
 		}
 
 		*buf_p = p; /* pass back pointer to current command position */
@@ -117,7 +117,7 @@ ssize_t read_buf(info_t *info, char *buf, size_t *i)
  *
  * Return: s
  */
-int _getLine(info_t *info, char **ptr, size_t *length)
+int _getline(info_t *info, char **ptr, size_t *length)
 {
 	static char buf[READ_BUF_SIZE];
 	static size_t i, len;
